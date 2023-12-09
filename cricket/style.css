@@ -1,0 +1,36 @@
+body {
+  text-align: center;
+}
+h1 {
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+h1:hover {
+  color: #ff5733;
+}
+
+.choice_button {
+  height: 100px;
+  width: 100px;
+  border: none;
+  border-radius: 50px;
+  background-color: rgb(115, 194, 128);
+  cursor: pointer;
+}
+img {
+  height: 75px;
+}
+.reset_button {
+  border: none;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+.reset_button img {
+  height: 50px;
+}
+#result {
+  color: #ff5733; 
+  font-size: 1.5em;
+  font-weight: bold; 
+}
