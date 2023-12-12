@@ -7,14 +7,17 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <!-- Message container for displaying winner or tie message -->
     <div class="msg-container hide">
       <p id="msg">Winner</p>
       <button id="new-game">New Game</button>
     </div>
     <main>
       <h1>Tic Tac Toe</h1>
-      <div class="conatiner">
+      <!-- Container for the tic-tac-toe game board -->
+      <div class="container">
         <div class="game">
+          <!-- Buttons representing the tic-tac-toe grid -->
           <button class="box"></button>
           <button class="box"></button>
           <button class="box"></button>
@@ -26,8 +29,10 @@
           <button class="box"></button>
         </div>
       </div>
+      <!-- Button to reset the game -->
       <button id="reset-btn">Reset Game</button>
     </main>
+    <!-- JavaScript file for game logic -->
     <script src="app.js"></script>
   </body>
 </html>
