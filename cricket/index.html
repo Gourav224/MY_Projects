@@ -8,23 +8,29 @@
   </head>
   <body>
     <h1>Bat Ball Stump Game</h1>
-    <button class="choice_button" onclick="play('Bat')">
-      <img src="images/bat.png" alt="Bat" />
-    </button>
-    <button class="choice_button" onclick="play('Ball')">
-      <img src="images/ball.png" alt="Ball" />
-    </button>
-    <button class="choice_button" onclick="play('Stump')">
-      <img src="images/stump.png" alt="Stump" />
-    </button>
+    <!-- Buttons for user choices with associated images -->
+    <div class="btn_container">
+      <button class="choice_button" onclick="play('Bat')">
+        <img src="images/bat.png" alt="Bat" />
+      </button>
+      <button class="choice_button" onclick="play('Ball')">
+        <img src="images/ball.png" alt="Ball" />
+      </button>
+      <button class="choice_button" onclick="play('Stump')">
+        <img src="images/stump.png" alt="Stump" />
+      </button>
+    </div>
+    <!-- Display user and computer choices, game result, and score -->
     <h3 id="user_choice"></h3>
     <h3 id="cpu_choice"></h3>
     <h3 id="result"></h3>
     <h3 id="score"></h3>
     <br />
+    <!-- Button to reset the game and clear localStorage -->
     <button onclick="forReset()" class="reset_button">
       <img src="images/reset.png" alt="Reset Button" />
     </button>
+    <!-- Include JavaScript file for game logic -->
     <script src="scripts.js"></script>
   </body>
 </html>
