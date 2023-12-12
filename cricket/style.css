@@ -32,6 +32,9 @@ h1 {
   background-color: #8ecae6;
   cursor: pointer;
 }
+.choice_button:hover{
+  border: solid 2px black;
+}
 img {
   height: 75px;
 }
