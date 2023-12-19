@@ -71,11 +71,11 @@ function displayBagSummary() {
     let totalDiscount = 0;
     let finalPayment = 0;
     let ConvenienceFee = 99;
-    bagItemObjects.forEach(bagItem=>{
-        totalMRP+=bagItem.original_price;
-        totalDiscount+=bagItem.original_price-bagItem.current_price;
+    bagItemObjects.forEach(bagItem => {
+        totalMRP += bagItem.original_price;
+        totalDiscount += bagItem.original_price - bagItem.current_price;
     });
-    finalPayment+=totalMRP-totalDiscount+ConvenienceFee;
+    finalPayment += totalMRP - totalDiscount + ConvenienceFee;
     bagSummaryElement.innerHTML = ` 
      <div class="bag-details-container">
     <div class="price-header">PRICE DETAILS (${totalItem} Items)</div>
