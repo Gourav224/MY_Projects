@@ -1,4 +1,4 @@
-let bagItems=[];
+let bagItems;
 
 onLoad();
 
@@ -14,6 +14,9 @@ function onLoad() {
 
 function displayItemsOnHomePages() {
     let itemsContainerElements = document.querySelector(".items-container");
+    if(!itemsContainerElements){
+        return ;
+    }
     let innerHTML = '';
     items.forEach(item => {
         innerHTML += ` <div class="item-container">

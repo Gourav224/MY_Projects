@@ -113,7 +113,7 @@ header {
 }
 .nav_bar {
   display: flex;
-  min-width: 500px;
+  min-width:  500px;
   justify-content: space-evenly;
   line-height: 1px;
   /* border-bottom: 5px solid #ffffff; */

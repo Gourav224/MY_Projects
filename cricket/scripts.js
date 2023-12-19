@@ -1,5 +1,3 @@
-// scripts.js
-
 // Object to store and manage game scores
 let score = {
     win: 0,
@@ -49,7 +47,7 @@ function play(userChoice) {
     // Determine the result based on choices
     if (compChoice === userChoice) {
         score.tie++;
-        result(compChoice, userChoice, `Tie`);
+        result(compChoice, userChoice, `It's Tie`);
     } else if (
         (compChoice == `Bat` && userChoice == `Stump`) ||
         (compChoice == `Ball` && userChoice == `Stump`) ||
@@ -67,15 +65,11 @@ function play(userChoice) {
 function result(compChoice, userChoice, res) {
     document.querySelector('#user_choice').innerText = ` You Chose: ${userChoice}`;
     document.querySelector('#cpu_choice').innerText = `Computer Chose: ${compChoice}`;
-    document.querySelector('#result').innerText = `Result: ${res}`;
+    document.querySelector('#result').innerText = `${res}`;
     document.querySelector('#score').innerText = displayScore();
     localStorage.setItem('score', JSON.stringify(score));
 }
 
-// Prevent context menu on right-click
-document.addEventListener('contextmenu', function (event) {
-    event.preventDefault();
-});
 
 // Function to initialize the game and retrieve the score from localStorage
 function initGame() {

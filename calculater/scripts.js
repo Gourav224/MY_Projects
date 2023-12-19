@@ -16,7 +16,7 @@ function result() {
   try {
     currentDisplay = eval(currentDisplay);
     document.querySelector("#display").value = currentDisplay;
-    if(currentDisplay=='Infinity'){
+    if(!currentDisplay){
         currentDisplay='';
     }
   } catch (error) {

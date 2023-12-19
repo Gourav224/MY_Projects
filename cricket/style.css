@@ -49,7 +49,7 @@ img {
 }
 #result {
   color: #e76f51; 
-  font-size: 2.5em;
+  font-size: 3em;
   font-weight: bold; 
   gap: 1vmin;
 }
@@ -58,5 +58,5 @@ h3{
 }
 #score{
   color: #fb8500;
-  font-size: 1.5em;
+  font-size: 2em;
 }
