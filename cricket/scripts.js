@@ -78,4 +78,4 @@ function initGame() {
 }
 
 // Event listener to initialize the game when the DOM is loaded
-document.addEventListener('DOMContentLoaded', initGame);
+window.addEventListener('DOMContentLoaded', initGame);
