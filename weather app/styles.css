@@ -1,0 +1,60 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: linear-gradient(to bottom, #87CEEB, #001F3F);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden; 
+}
+
+.container {
+    margin-top: 5rem;
+    text-align: center;
+    background: transparent; 
+    padding: 20px;
+    border-radius: 10px;
+    height: 10rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#location-form {
+    margin-top: 20px;
+}
+#name{
+    color: #fff;
+}
+input {
+    width: 25rem;
+    height: 2rem;
+    border: none;
+    border-radius: 0.5rem ;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#weather-container {
+    margin-top: 20px;
+}
+
+#weather-data {
+    color: #fff;
+    font-size:25px;
+    font-weight: 600; 
+}
+
+button {
+    height: 2rem;
+    width: 12rem;
+    border: none;
+    border-radius: 1em;
+    background-color: orangered;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+button:hover {
+    box-shadow: 0 0 10px rgba(255, 69, 0, 0.5);
+}
