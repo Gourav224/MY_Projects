@@ -1,0 +1,26 @@
+.app-Container {
+  display: flex;
+}
+.content {
+  width: 100%;
+}
+.sidebar {
+  min-height: 100vh;
+}
+.postCont{
+  margin: 20px 30px;
+}
+.hashtag{
+  margin: 0 3px;
+}
+.form-post{
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 25px;
+  width: 90%;
+  margin-top: 3%;
+  margin-left: 5%;
+}
+.spinner{
+  margin: 26vh;
+}
